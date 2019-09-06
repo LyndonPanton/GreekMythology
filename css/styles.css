@@ -19,7 +19,8 @@ body, html {
   border-bottom: #CCCCCC solid 2px;
   overflow-y: hidden;
   height: 0px;
-  color: #999999; }
+  color: #999999;
+  transition: all 0.3s ease-out; }
 
 #contents-list {
   list-style-type: none; }
