@@ -1,6 +1,9 @@
 body, html {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; }
 
+.contents-open {
+  height: 330px !important; }
+
 .nav-item:focus, .nav-item:hover {
   cursor: pointer;
   text-decoration: underline;
@@ -11,6 +14,15 @@ body, html {
 
 .nav-faded:focus, .nav-faded:hover {
   opacity: 1; }
+
+#contents {
+  border-bottom: #CCCCCC solid 2px;
+  overflow-y: hidden;
+  height: 0px;
+  color: #999999; }
+
+#contents-list {
+  list-style-type: none; }
 
 #nav-list {
   list-style-type: none; }
