@@ -53,5 +53,10 @@ footer {
       color: #FFFFFF; }
     footer #information #credits #credits-head {
       color: #FFFFFF; }
+  footer #social #instant i {
+    transition: all 0.4s linear; }
+  footer #social #instant i:focus, footer #social #instant i:hover {
+    color: #FFC107;
+    transform: scale(2); }
 
 /*# sourceMappingURL=styles.css.map */
