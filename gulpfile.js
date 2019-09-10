@@ -36,3 +36,6 @@ gulp.task("js", async function() {
 		.pipe(uglify()) // minify file
 		.pipe(gulp.dest("build/js")); // send to build folder
 });
+
+// default task
+gulp.task("default", gulp.series(["copyHTML", "copyMD", "sass", "imagemin", "js"]));
