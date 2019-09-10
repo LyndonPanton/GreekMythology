@@ -28,3 +28,11 @@ gulp.task("imagemin", async function() {
 		.pipe(imagemin()) // optimize files
 		.pipe(gulp.dest("build/img")); // send to build folder
 });
+
+// concatenate, minify scripts
+gulp.task("js", async function() {
+	gulp.src("src/js/*.js") // get js files
+		.pipe(concat("main.js")) // concatenate files into file
+		.pipe(uglify()) // minify file
+		.pipe(gulp.dest("build/js")); // send to build folder
+});
