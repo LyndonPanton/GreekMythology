@@ -1,0 +1,89 @@
+// general
+body, html
+    font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif
+
+// header
+header
+    #nav
+
+        #nav-list
+            list-style-type: none
+
+            .nav-faded 
+                opacity: 0.8
+
+            .nav-faded:focus, .nav-faded:hover 
+                opacity: 1
+
+            .nav-item:focus, .nav-item:hover 
+                cursor: pointer
+                text-decoration: underline
+                color: #FFFFFF
+	
+    .contents-open
+        height: 345px !important
+
+    #contents
+        border-bottom: #CCCCCC solid 2px
+        overflow-y: hidden
+        height: 0px
+        color: #999999
+        transition: all 0.3s ease-out
+
+        #contents-list
+            list-style-type: none
+
+            .contents-item
+                cursor: pointer
+
+                transition: all 0.4s linear
+
+            .contents-item:hover
+                text-decoration: underline
+                color: #000000
+
+    #find
+        border-bottom: #DDDDDD solid 2px
+
+        #search
+            border: #CCCCCC solid 1px
+
+        #hamburger
+            border: #F8F9FA solid 2px
+            height: 20px
+            -moz-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%)
+            -ms-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%)
+            -o-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%)
+            -webkit-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%)
+            background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%)
+
+
+
+// footer
+footer
+    background-color: #17A2B8
+
+    #information
+        #credits
+            color: #555555
+
+            .credit
+                border-bottom: #555555 dotted 2px
+                color: #555555
+
+            .credit:focus, .credit:hover
+                border-bottom-color: #FFFFFF
+                text-decoration: none
+                color: #FFFFFF
+
+            #credits-head
+                color: #FFFFFF
+
+    #social
+        #instant
+            i
+                transition: all 0.4s linear
+            i:focus, i:hover
+                color: #FFC107
+
+                transform: scale(2)
