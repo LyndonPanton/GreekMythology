@@ -21,3 +21,10 @@ gulp.task("sass", async function() {
 		.on("error", sass.logError) // log errors if any
 		.pipe(gulp.dest("build/css")); // send to build folder
 });
+
+// optimize images
+gulp.task("imagemin", async function() {
+	gulp.src("src/img/*") // get image files
+		.pipe(imagemin()) // optimize files
+		.pipe(gulp.dest("build/img")); // send to build folder
+});
