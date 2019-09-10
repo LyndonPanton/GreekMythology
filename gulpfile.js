@@ -9,11 +9,6 @@ gulp.task("copyHTML", async function() {
 		.pipe(gulp.dest("build")); // send to build folder
 });
 
-gulp.task("copyMD", async function() {
-	gulp.src("src/*.md") // get markdown file(s)
-		.pipe(gulp.dest("build")); // send to build folder
-});
-
 // compile sass
 gulp.task("sass", async function() {
 	gulp.src("src/sass/*.sass") // get sass files
@@ -42,7 +37,6 @@ gulp.task("default", gulp.series(["copyHTML", "copyMD", "sass", "imagemin", "js"
 
 gulp.task("watch", async function() {
 	gulp.watch("src/*.html", gulp.series("copyHTML"));
-	gulp.watch("src/*.md", gulp.series("copyMD"));
 	gulp.watch("src/sass/*.sass", gulp.series("sass"));
 	gulp.watch("src/img/*", gulp.series("imagemin"));
 	gulp.watch("src/js/*.js", gulp.series("js"));
