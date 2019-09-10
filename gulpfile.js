@@ -9,7 +9,7 @@ gulp.task("copyHTML", async function() {
 		.pipe(gulp.dest("build/")); // send to build folder
 });
 
-gulp.task("copyMARK", async function() {
+gulp.task("copyMD", async function() {
 	gulp.src("src/*.md") // get markdown file(s)
 		.pipe(gulp.dest("build/")); // send to build folder
 });
