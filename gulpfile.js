@@ -33,7 +33,7 @@ gulp.task("js", async function() {
 });
 
 // default task
-gulp.task("default", gulp.series(["copyHTML", "copyMD", "sass", "imagemin", "js"]));
+gulp.task("default", gulp.series(["copyHTML", "sass", "imagemin", "js"]));
 
 gulp.task("watch", async function() {
 	gulp.watch("src/*.html", gulp.series("copyHTML"));
