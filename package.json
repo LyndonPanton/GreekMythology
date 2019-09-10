@@ -1,0 +1,28 @@
+{
+  "name": "greekmythology",
+  "version": "1.0.0",
+  "description": "learn about subjects in ancient Greek Mythology such as gods, titan, demigods, monsters, locations, events and more",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyndonPanton/GreekMythology.git"
+  },
+  "keywords": [
+    "gulp",
+    "node",
+    "npm",
+    "sass",
+    "greek",
+    "mythology",
+    "javascript"
+  ],
+  "author": "Lyndon Panton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LyndonPanton/GreekMythology/issues"
+  },
+  "homepage": "https://github.com/LyndonPanton/GreekMythology#readme"
+}
