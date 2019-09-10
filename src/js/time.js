@@ -1,4 +1,2 @@
-window.onload = function(event) {
-	var copyrightYear = document.getElementById("copyright-year");
-	copyrightYear.textContent = (new Date()).getFullYear();
-};
+var copyrightYear = document.getElementById("copyright-year");
+copyrightYear.textContent = (new Date()).getFullYear();
