@@ -49,4 +49,5 @@ gulp.task("watch", async function() {
 	gulp.watch("src/sass/*.sass", gulp.series("sass"));
 	gulp.watch("src/img/*", gulp.series("imagemin"));
 	gulp.watch("src/js/*.js", gulp.series("js"));
+	gulp.watch("src/**/*", gulp.series("inject-build"));
 });
