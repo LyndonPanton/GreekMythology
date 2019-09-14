@@ -3,6 +3,8 @@ const imagemin = require("gulp-imagemin"); // optimize images
 const uglify = require("gulp-uglify"); // minify files
 const sass = require("gulp-sass"); // compile sass
 const concat = require("gulp-concat"); // concatenate files
+const rename = require("gulp-rename"); // rename files
+const inject = require("gulp-inject"); // inject dependencies
 
 gulp.task("copyHTML", async function() {
 	gulp.src("src/*.html") // get HTML file(s)
