@@ -32,6 +32,15 @@ gulp.task("js", async function() {
 		.pipe(gulp.dest("build/js")); // send to build folder
 });
 
+// inject dependencies
+gulp.task("inject-build", async function() {
+	// reading is not necessary for this operation
+	const sources = gulp.src(["./build/js/*.js", "./build/css/*.css"], {read: false});
+
+	gulp.src("./build/index.html")
+		.pipe(inject(sources));
+});
+
 // default task
 gulp.task("default", gulp.series(["copyHTML", "sass", "imagemin", "js"]));
 
