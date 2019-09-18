@@ -4,17 +4,6 @@
 body, html {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; }
 
-header #nav #nav-list {
-  list-style-type: none; }
-  header #nav #nav-list .nav-faded {
-    opacity: 0.8; }
-  header #nav #nav-list .nav-faded:focus, header #nav #nav-list .nav-faded:hover {
-    opacity: 1; }
-  header #nav #nav-list .nav-item:focus, header #nav #nav-list .nav-item:hover {
-    cursor: pointer;
-    text-decoration: underline;
-    color: #FFFFFF; }
-
 header #contents {
   border-bottom: #CCCCCC solid 2px;
   overflow-y: hidden;
@@ -46,6 +35,20 @@ header #find {
     -o-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%);
     -webkit-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%);
     background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%); }
+
+header #nav #nav-list {
+  list-style-type: none; }
+  header #nav #nav-list .nav-faded {
+    opacity: 0.8; }
+  header #nav #nav-list .nav-faded:focus, header #nav #nav-list .nav-faded:hover {
+    opacity: 1; }
+  header #nav #nav-list .nav-item:focus, header #nav #nav-list .nav-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #FFFFFF; }
+
+header #nav-toggle {
+  display: none; }
 
 main {
   padding-top: 20px; }
