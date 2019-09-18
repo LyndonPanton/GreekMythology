@@ -109,6 +109,14 @@ footer {
 @media (min-width: 700px) {
   body, html {
     font-size: 20px; }
+  header #find #hamburger {
+    display: none; }
+  header #nav-toggle {
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    display: block;
+    transform: scale(2, 1.5); }
   main {
     padding: 20px 30px; }
     main section article {
