@@ -94,3 +94,7 @@ footer {
   footer #social #instant i:focus, footer #social #instant i:hover {
     color: #FFC107;
     transform: scale(2); }
+
+@media (min-width: 700px) {
+  main section article {
+    width: 30%; } }
