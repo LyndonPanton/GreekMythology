@@ -54,9 +54,9 @@ main section {
   justify-content: space-around; }
   main section article {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
     margin-bottom: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
     border: #000000 solid 1px;
     border-radius: 8px;
     overflow-y: scroll;
