@@ -63,7 +63,8 @@ main {
       border-radius: 8px;
       overflow-y: scroll;
       width: 40%;
-      height: 300px; }
+      height: 300px;
+      scrollbar-width: none; }
       main section article h3 {
         border-top-left-radius: 8px;
         border-top-right-radius: 8px;
