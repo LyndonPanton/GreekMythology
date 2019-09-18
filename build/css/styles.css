@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  display: none; }
+
 body, html {
   font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif; }
 
@@ -55,7 +58,7 @@ main section {
     margin-right: 20px;
     border: #000000 solid 1px;
     border-radius: 8px;
-    overflow-y: hidden;
+    overflow-y: scroll;
     width: 40%;
     height: 300px; }
     main section article h3 {
