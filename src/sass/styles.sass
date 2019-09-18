@@ -37,13 +37,16 @@ header
             list-style-type: none
 
             .contents-item
-                cursor: pointer
 
-                transition: all 0.4s linear
+                .contents-link
+                    cursor: pointer
+                    color: #999999
 
-            .contents-item:hover
-                text-decoration: underline
-                color: #000000
+                    transition: all 0.4s linear
+
+                .contents-link:hover
+                    text-decoration: underline
+                    color: #000000
 
     #find
         border-bottom: #DDDDDD solid 2px

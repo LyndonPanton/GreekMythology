@@ -26,10 +26,11 @@ header #contents {
   transition: all 0.3s ease-out; }
   header #contents #contents-list {
     list-style-type: none; }
-    header #contents #contents-list .contents-item {
+    header #contents #contents-list .contents-item .contents-link {
       cursor: pointer;
+      color: #999999;
       transition: all 0.4s linear; }
-    header #contents #contents-list .contents-item:hover {
+    header #contents #contents-list .contents-item .contents-link:hover {
       text-decoration: underline;
       color: #000000; }
 
