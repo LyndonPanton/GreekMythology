@@ -47,34 +47,35 @@ header #find {
     -webkit-background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%);
     background: linear-gradient(#000000 0%, #000000 14.28%, transparent 14.28%, transparent 42.84%, #000000 42.84%, #000000 57.12%, transparent 57.12%, transparent 85.68%, #000000 85.68%, #000000 100%); }
 
-main section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around; }
-  main section article {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    margin-left: 10px;
-    border: #000000 solid 1px;
-    border-radius: 8px;
-    overflow-y: scroll;
-    width: 40%;
-    height: 300px; }
-    main section article h3 {
-      border-top-left-radius: 8px;
-      border-top-right-radius: 8px;
-      padding: 5px 0;
-      background-color: #17A2BB;
-      text-align: center;
-      color: #FFFFFF; }
-    main section article p {
-      padding: 0 15px;
-      width: 90%; }
-
-main section > p {
-  text-align: center; }
+main {
+  padding-top: 20px; }
+  main section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    main section article {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      border: #000000 solid 1px;
+      border-radius: 8px;
+      overflow-y: scroll;
+      width: 40%;
+      height: 300px; }
+      main section article h3 {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding: 5px 0;
+        background-color: #17A2BB;
+        text-align: center;
+        color: #FFFFFF; }
+      main section article p {
+        padding: 0 15px;
+        width: 90%; }
+  main section > p {
+    text-align: center; }
 
 footer {
   background-color: #17A2B8; }
