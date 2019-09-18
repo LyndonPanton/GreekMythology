@@ -15,9 +15,6 @@ header #nav #nav-list {
     text-decoration: underline;
     color: #FFFFFF; }
 
-header .contents-open {
-  height: 420px !important; }
-
 header #contents {
   border-bottom: #CCCCCC solid 2px;
   overflow-y: hidden;
@@ -33,6 +30,9 @@ header #contents {
     header #contents #contents-list .contents-item .contents-link:hover {
       text-decoration: underline;
       color: #000000; }
+
+header #contents.contents-open {
+  height: 420px; }
 
 header #find {
   border-bottom: #DDDDDD solid 2px; }

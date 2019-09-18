@@ -22,9 +22,6 @@ header
                 cursor: pointer
                 text-decoration: underline
                 color: #FFFFFF
-	
-    .contents-open
-        height: 420px !important
 
     #contents
         border-bottom: #CCCCCC solid 2px
@@ -47,6 +44,9 @@ header
                 .contents-link:hover
                     text-decoration: underline
                     color: #000000
+            
+    #contents.contents-open
+        height: 420px
 
     #find
         border-bottom: #DDDDDD solid 2px
@@ -133,13 +133,16 @@ footer
 
 // media queries
 @media (min-width: 500px)
+    // general
     body, html
         font-size: 18px
 
 @media (min-width: 700px)
+    // general
     body, html
         font-size: 20px
 
+    // main
     main
         padding: 20px 30px
         section
@@ -147,9 +150,11 @@ footer
                 width: 30%
 
 @media (min-width: 1100px)
+    // general
     body, html
         font-size: 22px
 
+    // main
     main
         padding: 20px 80px
         section
