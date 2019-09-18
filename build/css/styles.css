@@ -73,6 +73,9 @@ main section {
       padding: 0 15px;
       width: 90%; }
 
+main section > p {
+  text-align: center; }
+
 footer {
   background-color: #17A2B8; }
   footer #information #credits {
