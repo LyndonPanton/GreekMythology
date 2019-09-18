@@ -99,7 +99,9 @@ footer {
 
 @media (min-width: 500px) {
   body, html {
-    font-size: 18px; } }
+    font-size: 18px; }
+  header #contents.contents-open {
+    height: 470px; } }
 
 @media (min-width: 700px) {
   body, html {
