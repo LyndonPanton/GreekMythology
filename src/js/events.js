@@ -20,5 +20,11 @@ function toggleContentsNavigation() {
 }
 
 function toggleLargeContentsNavigation() {
-	
+	var toggleContents = document.getElementById("toggle-contents");
+
+	if (toggleContents.style.display === "block") {
+		toggleContents.style.display = "none"
+	} else {
+		toggleContents.style.display = "block"
+	}
 }
