@@ -59,6 +59,12 @@ header #toggle-contents {
   background: #17A2B8;
   background: rgba(23, 162, 184, 0.9);
   transition: all 0.3s linear; }
+  header #toggle-contents #toggle-close {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 0.5em;
+    transform: scale(4); }
   header #toggle-contents #toggle-nav {
     display: flex;
     flex-direction: column;
