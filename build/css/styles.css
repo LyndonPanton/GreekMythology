@@ -56,7 +56,21 @@ header #toggle-contents {
   width: 100vw;
   height: 100vh;
   background: #17A2B8;
-  background: rgba(23, 162, 184, 0.7); }
+  background: rgba(23, 162, 184, 0.9); }
+  header #toggle-contents #toggle-nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none; }
+    header #toggle-contents #toggle-nav .toggle-nav-item {
+      margin: 1.4vh 0;
+      padding: 0;
+      font-size: 1.5em; }
+      header #toggle-contents #toggle-nav .toggle-nav-item .toggle-nav-link {
+        letter-spacing: 4px;
+        color: #FFFFFF; }
 
 main {
   padding-top: 20px; }
