@@ -14,6 +14,13 @@ navToggle.addEventListener("keyup", function(event) {
 	}
 });
 
+var toggleClose = document.getElementById("toggle-close");
+toggleClose.addEventListener("click", closeNavigation);
+
+function closeNavigation() {
+	
+}
+
 function toggleContentsNavigation() {
 	var contents = document.getElementById("contents");
 
