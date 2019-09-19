@@ -18,7 +18,8 @@ var toggleClose = document.getElementById("toggle-close");
 toggleClose.addEventListener("click", closeNavigation);
 
 function closeNavigation() {
-	
+	var toggleContents = document.getElementById("toggle-contents");
+	toggleContents.style.display = "none";
 }
 
 function toggleContentsNavigation() {
