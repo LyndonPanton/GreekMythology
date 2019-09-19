@@ -16,6 +16,11 @@ navToggle.addEventListener("keyup", function(event) {
 
 var toggleClose = document.getElementById("toggle-close");
 toggleClose.addEventListener("click", closeNavigation);
+toggleClose.addEventListener("keyup", function(event) {
+	if (event.keyCode === 13) {
+		closeNavigation();
+	}
+});
 
 function closeNavigation() {
 	var toggleContents = document.getElementById("toggle-contents");
