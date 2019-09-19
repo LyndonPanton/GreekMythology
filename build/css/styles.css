@@ -142,6 +142,8 @@ footer {
   header h1 {
     display: inline-block;
     margin-left: 80px; }
+  header #contents {
+    display: none; }
   header #find #hamburger {
     display: none; }
   header #nav {
