@@ -6,6 +6,9 @@ hamburger.addEventListener("keydown", function(event) {
 	}
 });
 
+var navToggle = document.getElementById("nav-toggle");
+navToggle.addEventListener("click", toggleLargeContentsNavigation);
+
 function toggleContentsNavigation() {
 	var contents = document.getElementById("contents");
 
@@ -14,4 +17,8 @@ function toggleContentsNavigation() {
 	} else {
 		contents.classList.remove("contents-open");
 	}
+}
+
+function toggleLargeContentsNavigation() {
+	
 }
