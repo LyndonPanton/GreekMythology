@@ -22,6 +22,16 @@ toggleClose.addEventListener("keyup", function(event) {
 	}
 });
 
+var toggleNavLinks = document.getElementsByClassName("toggle-nav-link");
+for (var i = 0; i < toggleNavLinks.length; i++) {
+	toggleNavLinks[i].addEventListener("click", closeNavigation);
+	toggleNavLinks[i].addEventListener("keyup", function(event) {
+		if (event.keyCode === 13) {
+			closeNavigation();
+		}
+	});
+}
+
 function closeNavigation() {
 	var toggleContents = document.getElementById("toggle-contents");
 	toggleContents.style.display = "none";
