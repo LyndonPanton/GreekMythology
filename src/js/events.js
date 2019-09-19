@@ -8,6 +8,11 @@ hamburger.addEventListener("keydown", function(event) {
 
 var navToggle = document.getElementById("nav-toggle");
 navToggle.addEventListener("click", toggleLargeContentsNavigation);
+navToggle.addEventListener("keyup", function(event) {
+	if (event.keyCode === 13) {
+		toggleLargeContentsNavigation();
+	}
+});
 
 function toggleContentsNavigation() {
 	var contents = document.getElementById("contents");
