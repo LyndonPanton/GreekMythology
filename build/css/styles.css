@@ -53,10 +53,12 @@ header #nav-toggle {
 header #toggle-contents {
   position: absolute;
   z-index: 1;
+  display: none;
   width: 100vw;
   height: 100vh;
   background: #17A2B8;
-  background: rgba(23, 162, 184, 0.9); }
+  background: rgba(23, 162, 184, 0.9);
+  transition: all 0.3s linear; }
   header #toggle-contents #toggle-nav {
     display: flex;
     flex-direction: column;
