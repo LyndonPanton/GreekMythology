@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/LyndonPanton/GreekMythology#readme",
   "devDependencies": {
+    "eslint": "^6.4.0",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-imagemin": "^6.1.0",
